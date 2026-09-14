@@ -79,16 +79,19 @@ Synopsys Verdi
 📁 Project Structure
 
 Synchronous_FIFO/
-
+│
 ├── DUT/
-│ └── design.sv
-
+│   └── design.sv
+│
 └── Testbench/
     ├── testbench.sv
-    ├── fifo_tx.sv
-    ├── fifo_gen.sv
     ├── fifo_common.sv
+    ├── fifo_transaction.sv
+    ├── fifo_generator.sv
     ├── fifo_interface.sv
     ├── fifo_bfm.sv
-    ├── fifo_monitor.sv
-    └── fifo_sbd.sv
+    ├── fifo_mon.sv
+    ├── fifo_scb.sv
+    ├── fifo_cov.sv
+    ├── fifo_agt.sv
+    └── fifo_env.sv
